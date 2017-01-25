@@ -9,7 +9,6 @@ CC=gcc
 CFLAGS=-w -I$(SRC)
 LIBS=-lmenu -lncurses 
 
-
 SRC_FILES = $(wildcard $(SRC)/*.c)
 OBJ_FILES = $(patsubst $(SRC)/%.c,$(OBJ)/%.o,$(SRC_FILES))
 
